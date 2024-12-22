@@ -1,0 +1,1001 @@
+Algorithm,Weakness,Quantum Threat,Action
+RSA-3072,Weak hash function,Shor’s Algorithm,Switch to quantum-safe HSM
+AES-128,Moderate key length,Grover’s Algorithm,Implement NIST PQC
+SHA-256,Moderate key length,Grover’s Algorithm,Replace with Falcon
+3DES,Moderate key length,Amplitude Amplification Attack,Implement NIST PQC
+RSA-2048,Low entropy in RNG,Amplitude Amplification Attack,Implement NIST PQC
+DES,Outdated protocol,Grover’s Algorithm,Replace with Falcon
+AES-128,Limited key space,Quantum Curve Attack,Implement NIST PQC
+AES-128,Low entropy in RNG,Grover’s Algorithm,Replace with Falcon
+ECC-P256,Outdated protocol,Grover’s Algorithm,Replace with Falcon
+AES-128,Moderate key length,Quantum Curve Attack,Use Dilithium
+RSA-3072,Low entropy in RNG,Quantum Curve Attack,Upgrade to AES-256
+Blowfish,Outdated protocol,Quantum Key Search,Use Dilithium
+RSA-2048,Moderate key length,Amplitude Amplification Attack,Use Dilithium
+RSA-3072,Low entropy in RNG,Amplitude Amplification Attack,Use Dilithium
+AES-256,Low entropy in RNG,Amplitude Amplification Attack,Replace with Falcon
+DES,Weak hash function,Amplitude Amplification Attack,Implement NIST PQC
+AES-256,Vulnerable curve parameters,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-512,Outdated protocol,Quantum Key Search,Upgrade to AES-256
+ECC-P256,Limited key space,Grover’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Moderate key length,Shor’s Algorithm,Replace with Falcon
+SHA-512,Limited key space,Quantum Curve Attack,Use Dilithium
+ECC-P256,Limited key space,Shor’s Algorithm,Replace with Kyber
+ECC-P256,Vulnerable curve parameters,Grover’s Algorithm,Implement NIST PQC
+Blowfish,Outdated protocol,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-2048,Low entropy in RNG,Amplitude Amplification Attack,Replace with Kyber
+AES-256,Outdated protocol,Quantum Key Search,Use Dilithium
+SHA-256,Limited key space,Shor’s Algorithm,Adopt SPHINCS+
+AES-128,Vulnerable curve parameters,Shor’s Algorithm,Replace with Falcon
+RSA-2048,Limited key space,Quantum Key Search,Implement NIST PQC
+SHA-256,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+RSA-2048,Vulnerable curve parameters,Shor’s Algorithm,Implement NIST PQC
+DES,Deprecated algorithm,Quantum Key Search,Replace with Kyber
+Blowfish,Weak hash function,Quantum Key Search,Upgrade to AES-256
+Blowfish,Vulnerable curve parameters,Quantum Key Search,Implement NIST PQC
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Upgrade to AES-256
+RSA-3072,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+3DES,Weak hash function,Quantum Curve Attack,Replace with Falcon
+RSA-2048,Deprecated algorithm,Amplitude Amplification Attack,Replace with Falcon
+ECC-P256,Vulnerable curve parameters,Quantum Key Search,Adopt SPHINCS+
+DES,Limited key space,Amplitude Amplification Attack,Adopt SPHINCS+
+DES,Small key size,Grover’s Algorithm,Replace with Falcon
+Blowfish,Limited key space,Shor’s Algorithm,Replace with Kyber
+RSA-3072,Low entropy in RNG,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Weak hash function,Amplitude Amplification Attack,Switch to quantum-safe HSM
+DES,Deprecated algorithm,Quantum Key Search,Upgrade to AES-256
+3DES,Deprecated algorithm,Quantum Key Search,Replace with Kyber
+Blowfish,Deprecated algorithm,Quantum Curve Attack,Switch to quantum-safe HSM
+DES,Weak hash function,Quantum Key Search,Upgrade to AES-256
+RSA-2048,Moderate key length,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-2048,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+AES-256,Small key size,Shor’s Algorithm,Adopt SPHINCS+
+RSA-3072,Outdated protocol,Grover’s Algorithm,Use Dilithium
+RSA-3072,Outdated protocol,Quantum Curve Attack,Adopt SPHINCS+
+Blowfish,Low entropy in RNG,Shor’s Algorithm,Adopt SPHINCS+
+SHA-512,Low entropy in RNG,Grover’s Algorithm,Adopt SPHINCS+
+RSA-3072,Small key size,Quantum Curve Attack,Switch to quantum-safe HSM
+3DES,Susceptible to brute force,Shor’s Algorithm,Adopt SPHINCS+
+RSA-3072,Weak hash function,Grover’s Algorithm,Switch to quantum-safe HSM
+ECC-P256,Outdated protocol,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Susceptible to brute force,Grover’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+RSA-2048,Low entropy in RNG,Shor’s Algorithm,Use Dilithium
+RSA-2048,Limited key space,Grover’s Algorithm,Adopt SPHINCS+
+Blowfish,Deprecated algorithm,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-2048,Small key size,Quantum Curve Attack,Adopt SPHINCS+
+RSA-3072,Weak hash function,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Outdated protocol,Grover’s Algorithm,Adopt SPHINCS+
+ECC-P256,Moderate key length,Quantum Key Search,Implement NIST PQC
+ECC-P256,Limited key space,Quantum Key Search,Replace with Falcon
+SHA-512,Small key size,Quantum Key Search,Switch to quantum-safe HSM
+ECC-P256,Vulnerable curve parameters,Quantum Key Search,Transition to CRYSTALS-Kyber
+AES-256,Weak hash function,Quantum Key Search,Upgrade to AES-256
+3DES,Low entropy in RNG,Quantum Key Search,Use Dilithium
+DES,Weak hash function,Amplitude Amplification Attack,Replace with Falcon
+AES-128,Weak hash function,Grover’s Algorithm,Replace with Kyber
+ECC-P256,Limited key space,Quantum Key Search,Use Dilithium
+Blowfish,Low entropy in RNG,Quantum Key Search,Adopt SPHINCS+
+AES-128,Outdated protocol,Amplitude Amplification Attack,Replace with Kyber
+AES-256,Deprecated algorithm,Grover’s Algorithm,Upgrade to AES-256
+DES,Susceptible to brute force,Quantum Key Search,Adopt SPHINCS+
+3DES,Weak hash function,Amplitude Amplification Attack,Adopt SPHINCS+
+DES,Low entropy in RNG,Shor’s Algorithm,Use Dilithium
+SHA-256,Weak hash function,Grover’s Algorithm,Replace with Falcon
+SHA-512,Vulnerable curve parameters,Shor’s Algorithm,Use Dilithium
+AES-256,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Outdated protocol,Grover’s Algorithm,Replace with Kyber
+Blowfish,Limited key space,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+ECC-P256,Limited key space,Amplitude Amplification Attack,Adopt SPHINCS+
+SHA-512,Limited key space,Shor’s Algorithm,Switch to quantum-safe HSM
+DES,Moderate key length,Shor’s Algorithm,Adopt SPHINCS+
+AES-256,Vulnerable curve parameters,Quantum Curve Attack,Upgrade to AES-256
+SHA-256,Deprecated algorithm,Amplitude Amplification Attack,Adopt SPHINCS+
+3DES,Limited key space,Quantum Key Search,Implement NIST PQC
+3DES,Moderate key length,Shor’s Algorithm,Implement NIST PQC
+RSA-2048,Small key size,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Susceptible to brute force,Grover’s Algorithm,Replace with Falcon
+DES,Low entropy in RNG,Quantum Key Search,Replace with Falcon
+RSA-3072,Small key size,Amplitude Amplification Attack,Adopt SPHINCS+
+ECC-P256,Weak hash function,Quantum Curve Attack,Use Dilithium
+RSA-2048,Limited key space,Shor’s Algorithm,Replace with Falcon
+RSA-2048,Moderate key length,Amplitude Amplification Attack,Implement NIST PQC
+ECC-P256,Limited key space,Quantum Curve Attack,Switch to quantum-safe HSM
+DES,Susceptible to brute force,Shor’s Algorithm,Replace with Falcon
+RSA-3072,Vulnerable curve parameters,Amplitude Amplification Attack,Replace with Kyber
+3DES,Limited key space,Quantum Key Search,Adopt SPHINCS+
+DES,Limited key space,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+SHA-256,Vulnerable curve parameters,Shor’s Algorithm,Adopt SPHINCS+
+AES-128,Susceptible to brute force,Quantum Curve Attack,Implement NIST PQC
+Blowfish,Weak hash function,Amplitude Amplification Attack,Use Dilithium
+AES-256,Limited key space,Shor’s Algorithm,Adopt SPHINCS+
+AES-256,Limited key space,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+SHA-512,Moderate key length,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+3DES,Low entropy in RNG,Quantum Key Search,Use Dilithium
+ECC-P256,Low entropy in RNG,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+AES-256,Susceptible to brute force,Quantum Key Search,Use Dilithium
+AES-256,Vulnerable curve parameters,Grover’s Algorithm,Upgrade to AES-256
+RSA-2048,Outdated protocol,Grover’s Algorithm,Adopt SPHINCS+
+3DES,Limited key space,Quantum Key Search,Upgrade to AES-256
+SHA-256,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+DES,Small key size,Quantum Key Search,Replace with Kyber
+SHA-256,Limited key space,Shor’s Algorithm,Upgrade to AES-256
+Blowfish,Susceptible to brute force,Shor’s Algorithm,Implement NIST PQC
+DES,Small key size,Quantum Curve Attack,Upgrade to AES-256
+Blowfish,Vulnerable curve parameters,Amplitude Amplification Attack,Replace with Falcon
+3DES,Small key size,Amplitude Amplification Attack,Replace with Falcon
+SHA-256,Limited key space,Amplitude Amplification Attack,Upgrade to AES-256
+SHA-256,Deprecated algorithm,Quantum Key Search,Upgrade to AES-256
+SHA-512,Weak hash function,Quantum Key Search,Adopt SPHINCS+
+ECC-P256,Vulnerable curve parameters,Grover’s Algorithm,Replace with Kyber
+RSA-2048,Low entropy in RNG,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+AES-256,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+DES,Small key size,Amplitude Amplification Attack,Switch to quantum-safe HSM
+SHA-512,Vulnerable curve parameters,Shor’s Algorithm,Implement NIST PQC
+SHA-512,Susceptible to brute force,Quantum Key Search,Use Dilithium
+AES-128,Weak hash function,Quantum Key Search,Adopt SPHINCS+
+AES-256,Susceptible to brute force,Grover’s Algorithm,Implement NIST PQC
+Blowfish,Vulnerable curve parameters,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-3072,Vulnerable curve parameters,Quantum Curve Attack,Replace with Kyber
+SHA-256,Weak hash function,Grover’s Algorithm,Implement NIST PQC
+DES,Outdated protocol,Quantum Key Search,Implement NIST PQC
+RSA-2048,Low entropy in RNG,Grover’s Algorithm,Adopt SPHINCS+
+RSA-3072,Vulnerable curve parameters,Quantum Curve Attack,Upgrade to AES-256
+Blowfish,Susceptible to brute force,Quantum Curve Attack,Use Dilithium
+ECC-P256,Limited key space,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Weak hash function,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Vulnerable curve parameters,Grover’s Algorithm,Replace with Kyber
+3DES,Moderate key length,Quantum Key Search,Replace with Kyber
+SHA-512,Vulnerable curve parameters,Quantum Key Search,Implement NIST PQC
+RSA-3072,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+Blowfish,Moderate key length,Grover’s Algorithm,Use Dilithium
+DES,Outdated protocol,Amplitude Amplification Attack,Adopt SPHINCS+
+RSA-3072,Limited key space,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Small key size,Grover’s Algorithm,Upgrade to AES-256
+RSA-3072,Limited key space,Amplitude Amplification Attack,Implement NIST PQC
+ECC-P256,Outdated protocol,Quantum Key Search,Replace with Falcon
+RSA-3072,Small key size,Quantum Key Search,Replace with Kyber
+SHA-512,Deprecated algorithm,Quantum Curve Attack,Switch to quantum-safe HSM
+Blowfish,Deprecated algorithm,Amplitude Amplification Attack,Replace with Falcon
+SHA-512,Small key size,Quantum Curve Attack,Adopt SPHINCS+
+RSA-3072,Moderate key length,Quantum Curve Attack,Replace with Kyber
+ECC-P256,Moderate key length,Quantum Curve Attack,Implement NIST PQC
+AES-128,Deprecated algorithm,Quantum Key Search,Replace with Falcon
+3DES,Limited key space,Shor’s Algorithm,Upgrade to AES-256
+SHA-256,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+DES,Weak hash function,Quantum Curve Attack,Adopt SPHINCS+
+AES-128,Moderate key length,Amplitude Amplification Attack,Use Dilithium
+SHA-256,Vulnerable curve parameters,Grover’s Algorithm,Replace with Falcon
+RSA-2048,Vulnerable curve parameters,Grover’s Algorithm,Adopt SPHINCS+
+AES-256,Susceptible to brute force,Quantum Curve Attack,Replace with Falcon
+Blowfish,Low entropy in RNG,Quantum Key Search,Switch to quantum-safe HSM
+ECC-P256,Outdated protocol,Quantum Key Search,Upgrade to AES-256
+ECC-P256,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+AES-128,Susceptible to brute force,Amplitude Amplification Attack,Replace with Falcon
+AES-256,Small key size,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Susceptible to brute force,Quantum Key Search,Replace with Falcon
+AES-128,Limited key space,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-2048,Deprecated algorithm,Grover’s Algorithm,Use Dilithium
+3DES,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+SHA-256,Moderate key length,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+Blowfish,Susceptible to brute force,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+DES,Small key size,Quantum Curve Attack,Replace with Kyber
+ECC-P256,Weak hash function,Amplitude Amplification Attack,Replace with Falcon
+Blowfish,Limited key space,Shor’s Algorithm,Implement NIST PQC
+AES-256,Moderate key length,Quantum Key Search,Upgrade to AES-256
+DES,Deprecated algorithm,Amplitude Amplification Attack,Upgrade to AES-256
+ECC-P256,Small key size,Quantum Key Search,Transition to CRYSTALS-Kyber
+RSA-2048,Susceptible to brute force,Shor’s Algorithm,Switch to quantum-safe HSM
+AES-256,Deprecated algorithm,Quantum Key Search,Transition to CRYSTALS-Kyber
+RSA-2048,Small key size,Quantum Curve Attack,Replace with Kyber
+SHA-256,Outdated protocol,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Outdated protocol,Amplitude Amplification Attack,Replace with Kyber
+SHA-256,Moderate key length,Amplitude Amplification Attack,Replace with Kyber
+3DES,Moderate key length,Grover’s Algorithm,Switch to quantum-safe HSM
+ECC-P256,Moderate key length,Grover’s Algorithm,Replace with Kyber
+SHA-512,Vulnerable curve parameters,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Outdated protocol,Grover’s Algorithm,Replace with Kyber
+SHA-256,Susceptible to brute force,Amplitude Amplification Attack,Replace with Kyber
+AES-256,Susceptible to brute force,Grover’s Algorithm,Replace with Kyber
+SHA-512,Small key size,Quantum Key Search,Upgrade to AES-256
+AES-256,Moderate key length,Shor’s Algorithm,Replace with Falcon
+ECC-P256,Moderate key length,Quantum Key Search,Switch to quantum-safe HSM
+3DES,Moderate key length,Amplitude Amplification Attack,Upgrade to AES-256
+Blowfish,Weak hash function,Quantum Key Search,Adopt SPHINCS+
+DES,Deprecated algorithm,Quantum Curve Attack,Replace with Falcon
+SHA-512,Vulnerable curve parameters,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-256,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+RSA-3072,Small key size,Quantum Key Search,Adopt SPHINCS+
+DES,Deprecated algorithm,Quantum Key Search,Switch to quantum-safe HSM
+RSA-3072,Small key size,Amplitude Amplification Attack,Replace with Falcon
+AES-128,Outdated protocol,Quantum Curve Attack,Upgrade to AES-256
+3DES,Vulnerable curve parameters,Quantum Key Search,Replace with Falcon
+SHA-256,Low entropy in RNG,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+AES-256,Limited key space,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-2048,Limited key space,Amplitude Amplification Attack,Replace with Falcon
+AES-128,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Weak hash function,Quantum Key Search,Use Dilithium
+SHA-256,Limited key space,Amplitude Amplification Attack,Implement NIST PQC
+SHA-512,Small key size,Grover’s Algorithm,Upgrade to AES-256
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Implement NIST PQC
+AES-128,Susceptible to brute force,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-2048,Moderate key length,Quantum Key Search,Upgrade to AES-256
+AES-128,Limited key space,Quantum Key Search,Adopt SPHINCS+
+SHA-512,Limited key space,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+SHA-256,Outdated protocol,Amplitude Amplification Attack,Use Dilithium
+SHA-256,Vulnerable curve parameters,Quantum Curve Attack,Replace with Kyber
+ECC-P256,Moderate key length,Quantum Curve Attack,Adopt SPHINCS+
+AES-256,Low entropy in RNG,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-512,Outdated protocol,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-256,Vulnerable curve parameters,Quantum Curve Attack,Adopt SPHINCS+
+AES-128,Outdated protocol,Quantum Curve Attack,Replace with Falcon
+SHA-512,Moderate key length,Grover’s Algorithm,Adopt SPHINCS+
+AES-256,Outdated protocol,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+Blowfish,Weak hash function,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-3072,Deprecated algorithm,Quantum Key Search,Replace with Falcon
+Blowfish,Low entropy in RNG,Grover’s Algorithm,Use Dilithium
+RSA-3072,Low entropy in RNG,Quantum Key Search,Adopt SPHINCS+
+AES-128,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+AES-256,Vulnerable curve parameters,Amplitude Amplification Attack,Switch to quantum-safe HSM
+SHA-256,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+AES-128,Outdated protocol,Quantum Key Search,Replace with Falcon
+DES,Vulnerable curve parameters,Shor’s Algorithm,Upgrade to AES-256
+SHA-256,Limited key space,Grover’s Algorithm,Upgrade to AES-256
+DES,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+Blowfish,Limited key space,Quantum Curve Attack,Replace with Kyber
+Blowfish,Low entropy in RNG,Quantum Key Search,Use Dilithium
+AES-256,Moderate key length,Amplitude Amplification Attack,Upgrade to AES-256
+SHA-512,Susceptible to brute force,Quantum Key Search,Upgrade to AES-256
+SHA-256,Moderate key length,Quantum Key Search,Replace with Falcon
+RSA-3072,Moderate key length,Quantum Curve Attack,Adopt SPHINCS+
+SHA-256,Small key size,Quantum Curve Attack,Implement NIST PQC
+ECC-P256,Deprecated algorithm,Shor’s Algorithm,Use Dilithium
+Blowfish,Low entropy in RNG,Quantum Key Search,Replace with Falcon
+RSA-2048,Outdated protocol,Quantum Curve Attack,Use Dilithium
+SHA-256,Low entropy in RNG,Quantum Key Search,Transition to CRYSTALS-Kyber
+3DES,Weak hash function,Quantum Curve Attack,Replace with Falcon
+ECC-P256,Outdated protocol,Shor’s Algorithm,Use Dilithium
+RSA-2048,Susceptible to brute force,Grover’s Algorithm,Replace with Kyber
+RSA-3072,Vulnerable curve parameters,Shor’s Algorithm,Replace with Kyber
+SHA-256,Vulnerable curve parameters,Amplitude Amplification Attack,Replace with Falcon
+RSA-2048,Deprecated algorithm,Quantum Curve Attack,Replace with Falcon
+RSA-2048,Outdated protocol,Grover’s Algorithm,Switch to quantum-safe HSM
+Blowfish,Limited key space,Shor’s Algorithm,Replace with Kyber
+AES-256,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+SHA-512,Limited key space,Shor’s Algorithm,Replace with Kyber
+AES-256,Weak hash function,Quantum Key Search,Replace with Falcon
+RSA-3072,Moderate key length,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+AES-256,Low entropy in RNG,Shor’s Algorithm,Replace with Falcon
+DES,Vulnerable curve parameters,Quantum Key Search,Switch to quantum-safe HSM
+AES-256,Low entropy in RNG,Quantum Key Search,Adopt SPHINCS+
+3DES,Small key size,Quantum Curve Attack,Replace with Falcon
+Blowfish,Moderate key length,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+SHA-256,Susceptible to brute force,Grover’s Algorithm,Upgrade to AES-256
+AES-256,Vulnerable curve parameters,Quantum Key Search,Adopt SPHINCS+
+DES,Weak hash function,Amplitude Amplification Attack,Use Dilithium
+ECC-P256,Susceptible to brute force,Grover’s Algorithm,Adopt SPHINCS+
+RSA-2048,Small key size,Quantum Curve Attack,Switch to quantum-safe HSM
+AES-256,Small key size,Grover’s Algorithm,Replace with Falcon
+SHA-256,Moderate key length,Grover’s Algorithm,Use Dilithium
+3DES,Vulnerable curve parameters,Grover’s Algorithm,Upgrade to AES-256
+RSA-3072,Susceptible to brute force,Quantum Key Search,Use Dilithium
+3DES,Susceptible to brute force,Grover’s Algorithm,Adopt SPHINCS+
+DES,Low entropy in RNG,Quantum Key Search,Upgrade to AES-256
+Blowfish,Limited key space,Quantum Key Search,Implement NIST PQC
+RSA-3072,Outdated protocol,Quantum Key Search,Replace with Falcon
+SHA-256,Limited key space,Quantum Curve Attack,Replace with Falcon
+AES-256,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+DES,Vulnerable curve parameters,Quantum Key Search,Replace with Falcon
+3DES,Limited key space,Grover’s Algorithm,Implement NIST PQC
+3DES,Susceptible to brute force,Quantum Key Search,Replace with Falcon
+ECC-P256,Vulnerable curve parameters,Grover’s Algorithm,Upgrade to AES-256
+AES-256,Deprecated algorithm,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+Blowfish,Small key size,Quantum Curve Attack,Replace with Kyber
+RSA-3072,Moderate key length,Quantum Key Search,Transition to CRYSTALS-Kyber
+RSA-2048,Vulnerable curve parameters,Grover’s Algorithm,Replace with Kyber
+3DES,Deprecated algorithm,Quantum Key Search,Use Dilithium
+RSA-2048,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+Blowfish,Small key size,Quantum Key Search,Use Dilithium
+RSA-3072,Outdated protocol,Grover’s Algorithm,Use Dilithium
+ECC-P256,Deprecated algorithm,Grover’s Algorithm,Implement NIST PQC
+ECC-P256,Small key size,Quantum Key Search,Switch to quantum-safe HSM
+3DES,Deprecated algorithm,Quantum Key Search,Implement NIST PQC
+RSA-3072,Small key size,Amplitude Amplification Attack,Implement NIST PQC
+Blowfish,Deprecated algorithm,Shor’s Algorithm,Upgrade to AES-256
+RSA-2048,Vulnerable curve parameters,Amplitude Amplification Attack,Use Dilithium
+3DES,Weak hash function,Shor’s Algorithm,Implement NIST PQC
+AES-256,Outdated protocol,Shor’s Algorithm,Implement NIST PQC
+SHA-256,Vulnerable curve parameters,Shor’s Algorithm,Adopt SPHINCS+
+ECC-P256,Outdated protocol,Amplitude Amplification Attack,Replace with Kyber
+DES,Limited key space,Grover’s Algorithm,Replace with Falcon
+RSA-3072,Deprecated algorithm,Quantum Curve Attack,Upgrade to AES-256
+3DES,Outdated protocol,Shor’s Algorithm,Adopt SPHINCS+
+RSA-3072,Low entropy in RNG,Amplitude Amplification Attack,Upgrade to AES-256
+Blowfish,Deprecated algorithm,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+3DES,Low entropy in RNG,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+3DES,Small key size,Shor’s Algorithm,Adopt SPHINCS+
+Blowfish,Moderate key length,Grover’s Algorithm,Use Dilithium
+3DES,Deprecated algorithm,Shor’s Algorithm,Upgrade to AES-256
+SHA-512,Limited key space,Amplitude Amplification Attack,Replace with Falcon
+3DES,Outdated protocol,Grover’s Algorithm,Replace with Kyber
+AES-256,Small key size,Amplitude Amplification Attack,Switch to quantum-safe HSM
+SHA-512,Moderate key length,Grover’s Algorithm,Upgrade to AES-256
+SHA-256,Small key size,Grover’s Algorithm,Upgrade to AES-256
+3DES,Susceptible to brute force,Quantum Curve Attack,Adopt SPHINCS+
+SHA-512,Weak hash function,Quantum Curve Attack,Use Dilithium
+Blowfish,Susceptible to brute force,Shor’s Algorithm,Upgrade to AES-256
+RSA-3072,Low entropy in RNG,Grover’s Algorithm,Replace with Falcon
+AES-256,Outdated protocol,Grover’s Algorithm,Replace with Falcon
+Blowfish,Limited key space,Shor’s Algorithm,Implement NIST PQC
+Blowfish,Outdated protocol,Shor’s Algorithm,Implement NIST PQC
+SHA-512,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+Blowfish,Outdated protocol,Shor’s Algorithm,Replace with Kyber
+RSA-3072,Limited key space,Amplitude Amplification Attack,Switch to quantum-safe HSM
+SHA-512,Vulnerable curve parameters,Quantum Key Search,Replace with Falcon
+SHA-512,Susceptible to brute force,Amplitude Amplification Attack,Replace with Falcon
+AES-128,Moderate key length,Grover’s Algorithm,Upgrade to AES-256
+AES-128,Moderate key length,Shor’s Algorithm,Replace with Falcon
+RSA-3072,Outdated protocol,Quantum Curve Attack,Upgrade to AES-256
+RSA-3072,Small key size,Quantum Curve Attack,Replace with Falcon
+ECC-P256,Outdated protocol,Grover’s Algorithm,Implement NIST PQC
+RSA-3072,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+AES-128,Moderate key length,Amplitude Amplification Attack,Upgrade to AES-256
+SHA-512,Outdated protocol,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+Blowfish,Susceptible to brute force,Shor’s Algorithm,Use Dilithium
+Blowfish,Small key size,Quantum Curve Attack,Replace with Falcon
+SHA-256,Moderate key length,Quantum Curve Attack,Implement NIST PQC
+3DES,Moderate key length,Shor’s Algorithm,Replace with Kyber
+SHA-512,Deprecated algorithm,Grover’s Algorithm,Replace with Kyber
+AES-128,Vulnerable curve parameters,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Low entropy in RNG,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-2048,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+ECC-P256,Susceptible to brute force,Amplitude Amplification Attack,Implement NIST PQC
+ECC-P256,Weak hash function,Amplitude Amplification Attack,Replace with Falcon
+SHA-256,Susceptible to brute force,Grover’s Algorithm,Switch to quantum-safe HSM
+ECC-P256,Deprecated algorithm,Quantum Key Search,Transition to CRYSTALS-Kyber
+Blowfish,Deprecated algorithm,Shor’s Algorithm,Upgrade to AES-256
+3DES,Susceptible to brute force,Quantum Curve Attack,Upgrade to AES-256
+ECC-P256,Limited key space,Amplitude Amplification Attack,Use Dilithium
+AES-128,Weak hash function,Amplitude Amplification Attack,Use Dilithium
+AES-256,Deprecated algorithm,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Small key size,Amplitude Amplification Attack,Upgrade to AES-256
+AES-256,Low entropy in RNG,Grover’s Algorithm,Upgrade to AES-256
+AES-256,Limited key space,Amplitude Amplification Attack,Switch to quantum-safe HSM
+AES-256,Susceptible to brute force,Grover’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Moderate key length,Amplitude Amplification Attack,Upgrade to AES-256
+DES,Small key size,Shor’s Algorithm,Upgrade to AES-256
+ECC-P256,Vulnerable curve parameters,Quantum Key Search,Implement NIST PQC
+ECC-P256,Deprecated algorithm,Amplitude Amplification Attack,Upgrade to AES-256
+Blowfish,Moderate key length,Amplitude Amplification Attack,Switch to quantum-safe HSM
+ECC-P256,Limited key space,Quantum Curve Attack,Upgrade to AES-256
+AES-256,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+SHA-512,Low entropy in RNG,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Small key size,Amplitude Amplification Attack,Replace with Kyber
+SHA-256,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+SHA-256,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Moderate key length,Shor’s Algorithm,Use Dilithium
+Blowfish,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+RSA-3072,Low entropy in RNG,Quantum Curve Attack,Switch to quantum-safe HSM
+ECC-P256,Small key size,Amplitude Amplification Attack,Switch to quantum-safe HSM
+AES-256,Small key size,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+3DES,Small key size,Grover’s Algorithm,Implement NIST PQC
+AES-128,Outdated protocol,Quantum Curve Attack,Upgrade to AES-256
+DES,Susceptible to brute force,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+ECC-P256,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+SHA-512,Susceptible to brute force,Quantum Key Search,Implement NIST PQC
+SHA-512,Limited key space,Quantum Curve Attack,Replace with Kyber
+SHA-256,Vulnerable curve parameters,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+3DES,Low entropy in RNG,Grover’s Algorithm,Use Dilithium
+RSA-2048,Susceptible to brute force,Quantum Curve Attack,Adopt SPHINCS+
+AES-128,Outdated protocol,Shor’s Algorithm,Use Dilithium
+RSA-2048,Outdated protocol,Quantum Key Search,Switch to quantum-safe HSM
+Blowfish,Susceptible to brute force,Amplitude Amplification Attack,Upgrade to AES-256
+3DES,Weak hash function,Amplitude Amplification Attack,Switch to quantum-safe HSM
+ECC-P256,Low entropy in RNG,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Outdated protocol,Grover’s Algorithm,Implement NIST PQC
+SHA-256,Outdated protocol,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-256,Deprecated algorithm,Quantum Key Search,Use Dilithium
+AES-128,Susceptible to brute force,Grover’s Algorithm,Use Dilithium
+RSA-2048,Susceptible to brute force,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Low entropy in RNG,Amplitude Amplification Attack,Use Dilithium
+SHA-512,Small key size,Grover’s Algorithm,Replace with Kyber
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Switch to quantum-safe HSM
+AES-256,Susceptible to brute force,Quantum Curve Attack,Switch to quantum-safe HSM
+RSA-3072,Weak hash function,Amplitude Amplification Attack,Adopt SPHINCS+
+SHA-512,Outdated protocol,Shor’s Algorithm,Upgrade to AES-256
+3DES,Moderate key length,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Weak hash function,Grover’s Algorithm,Upgrade to AES-256
+AES-128,Low entropy in RNG,Amplitude Amplification Attack,Upgrade to AES-256
+Blowfish,Limited key space,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Moderate key length,Amplitude Amplification Attack,Use Dilithium
+AES-256,Weak hash function,Grover’s Algorithm,Upgrade to AES-256
+RSA-2048,Low entropy in RNG,Grover’s Algorithm,Replace with Kyber
+DES,Vulnerable curve parameters,Grover’s Algorithm,Adopt SPHINCS+
+SHA-256,Deprecated algorithm,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+AES-128,Limited key space,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-256,Small key size,Grover’s Algorithm,Replace with Kyber
+RSA-3072,Vulnerable curve parameters,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-2048,Moderate key length,Amplitude Amplification Attack,Switch to quantum-safe HSM
+DES,Low entropy in RNG,Quantum Curve Attack,Replace with Falcon
+ECC-P256,Moderate key length,Shor’s Algorithm,Use Dilithium
+AES-256,Limited key space,Amplitude Amplification Attack,Upgrade to AES-256
+AES-256,Limited key space,Amplitude Amplification Attack,Replace with Falcon
+SHA-512,Susceptible to brute force,Amplitude Amplification Attack,Upgrade to AES-256
+DES,Outdated protocol,Grover’s Algorithm,Replace with Falcon
+SHA-512,Low entropy in RNG,Quantum Key Search,Use Dilithium
+AES-128,Deprecated algorithm,Quantum Key Search,Replace with Falcon
+RSA-3072,Outdated protocol,Grover’s Algorithm,Use Dilithium
+ECC-P256,Moderate key length,Quantum Key Search,Switch to quantum-safe HSM
+Blowfish,Moderate key length,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+AES-256,Low entropy in RNG,Quantum Key Search,Transition to CRYSTALS-Kyber
+DES,Deprecated algorithm,Quantum Key Search,Adopt SPHINCS+
+RSA-2048,Weak hash function,Quantum Key Search,Upgrade to AES-256
+SHA-256,Outdated protocol,Quantum Curve Attack,Use Dilithium
+DES,Outdated protocol,Shor’s Algorithm,Use Dilithium
+SHA-256,Vulnerable curve parameters,Quantum Key Search,Use Dilithium
+SHA-512,Limited key space,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-512,Deprecated algorithm,Quantum Key Search,Switch to quantum-safe HSM
+AES-128,Vulnerable curve parameters,Amplitude Amplification Attack,Upgrade to AES-256
+AES-128,Weak hash function,Grover’s Algorithm,Switch to quantum-safe HSM
+RSA-3072,Low entropy in RNG,Grover’s Algorithm,Switch to quantum-safe HSM
+DES,Vulnerable curve parameters,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Low entropy in RNG,Amplitude Amplification Attack,Switch to quantum-safe HSM
+ECC-P256,Weak hash function,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+3DES,Vulnerable curve parameters,Quantum Key Search,Replace with Falcon
+AES-256,Small key size,Grover’s Algorithm,Adopt SPHINCS+
+AES-256,Limited key space,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+AES-128,Susceptible to brute force,Quantum Key Search,Upgrade to AES-256
+SHA-256,Outdated protocol,Grover’s Algorithm,Replace with Falcon
+AES-256,Weak hash function,Quantum Curve Attack,Replace with Kyber
+3DES,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+SHA-256,Outdated protocol,Grover’s Algorithm,Use Dilithium
+ECC-P256,Low entropy in RNG,Shor’s Algorithm,Use Dilithium
+AES-256,Small key size,Quantum Curve Attack,Switch to quantum-safe HSM
+DES,Low entropy in RNG,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Moderate key length,Grover’s Algorithm,Replace with Falcon
+3DES,Susceptible to brute force,Quantum Key Search,Use Dilithium
+DES,Vulnerable curve parameters,Shor’s Algorithm,Replace with Kyber
+AES-256,Low entropy in RNG,Amplitude Amplification Attack,Upgrade to AES-256
+AES-256,Vulnerable curve parameters,Amplitude Amplification Attack,Switch to quantum-safe HSM
+ECC-P256,Outdated protocol,Shor’s Algorithm,Replace with Kyber
+AES-128,Moderate key length,Shor’s Algorithm,Use Dilithium
+RSA-3072,Moderate key length,Quantum Key Search,Adopt SPHINCS+
+SHA-256,Outdated protocol,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+AES-256,Small key size,Quantum Key Search,Replace with Falcon
+RSA-2048,Weak hash function,Grover’s Algorithm,Use Dilithium
+AES-256,Outdated protocol,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-512,Moderate key length,Grover’s Algorithm,Replace with Falcon
+RSA-3072,Susceptible to brute force,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+SHA-512,Outdated protocol,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-512,Outdated protocol,Quantum Key Search,Replace with Falcon
+DES,Deprecated algorithm,Shor’s Algorithm,Replace with Falcon
+SHA-256,Low entropy in RNG,Grover’s Algorithm,Adopt SPHINCS+
+DES,Limited key space,Grover’s Algorithm,Implement NIST PQC
+RSA-2048,Weak hash function,Quantum Curve Attack,Use Dilithium
+Blowfish,Weak hash function,Quantum Curve Attack,Upgrade to AES-256
+AES-128,Susceptible to brute force,Shor’s Algorithm,Replace with Falcon
+SHA-256,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+AES-128,Weak hash function,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+AES-256,Low entropy in RNG,Quantum Key Search,Replace with Falcon
+AES-128,Susceptible to brute force,Quantum Curve Attack,Replace with Kyber
+AES-256,Limited key space,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+SHA-512,Deprecated algorithm,Quantum Key Search,Adopt SPHINCS+
+AES-256,Vulnerable curve parameters,Grover’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Moderate key length,Quantum Curve Attack,Replace with Kyber
+AES-256,Moderate key length,Quantum Key Search,Replace with Kyber
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Replace with Falcon
+3DES,Moderate key length,Amplitude Amplification Attack,Replace with Kyber
+RSA-2048,Low entropy in RNG,Quantum Curve Attack,Upgrade to AES-256
+AES-128,Deprecated algorithm,Amplitude Amplification Attack,Replace with Kyber
+ECC-P256,Outdated protocol,Grover’s Algorithm,Use Dilithium
+AES-128,Susceptible to brute force,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Low entropy in RNG,Amplitude Amplification Attack,Upgrade to AES-256
+AES-128,Limited key space,Quantum Key Search,Replace with Falcon
+DES,Small key size,Grover’s Algorithm,Adopt SPHINCS+
+AES-128,Deprecated algorithm,Quantum Curve Attack,Switch to quantum-safe HSM
+ECC-P256,Limited key space,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-2048,Moderate key length,Amplitude Amplification Attack,Replace with Falcon
+SHA-256,Moderate key length,Amplitude Amplification Attack,Adopt SPHINCS+
+RSA-3072,Vulnerable curve parameters,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Use Dilithium
+AES-128,Weak hash function,Quantum Key Search,Implement NIST PQC
+AES-256,Limited key space,Shor’s Algorithm,Implement NIST PQC
+RSA-3072,Moderate key length,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+3DES,Deprecated algorithm,Amplitude Amplification Attack,Adopt SPHINCS+
+SHA-256,Vulnerable curve parameters,Quantum Key Search,Replace with Kyber
+AES-256,Weak hash function,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-512,Susceptible to brute force,Quantum Curve Attack,Use Dilithium
+3DES,Deprecated algorithm,Quantum Curve Attack,Implement NIST PQC
+SHA-512,Low entropy in RNG,Grover’s Algorithm,Implement NIST PQC
+3DES,Vulnerable curve parameters,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-256,Limited key space,Amplitude Amplification Attack,Implement NIST PQC
+DES,Susceptible to brute force,Shor’s Algorithm,Replace with Kyber
+DES,Moderate key length,Amplitude Amplification Attack,Switch to quantum-safe HSM
+3DES,Low entropy in RNG,Quantum Curve Attack,Implement NIST PQC
+RSA-3072,Low entropy in RNG,Shor’s Algorithm,Implement NIST PQC
+DES,Outdated protocol,Quantum Curve Attack,Switch to quantum-safe HSM
+AES-128,Outdated protocol,Grover’s Algorithm,Use Dilithium
+AES-256,Vulnerable curve parameters,Grover’s Algorithm,Implement NIST PQC
+AES-128,Susceptible to brute force,Amplitude Amplification Attack,Use Dilithium
+AES-128,Low entropy in RNG,Quantum Curve Attack,Replace with Kyber
+AES-256,Limited key space,Shor’s Algorithm,Replace with Falcon
+AES-256,Weak hash function,Quantum Curve Attack,Use Dilithium
+Blowfish,Outdated protocol,Shor’s Algorithm,Use Dilithium
+DES,Vulnerable curve parameters,Quantum Key Search,Adopt SPHINCS+
+SHA-512,Limited key space,Quantum Key Search,Replace with Kyber
+3DES,Moderate key length,Quantum Curve Attack,Use Dilithium
+SHA-256,Low entropy in RNG,Shor’s Algorithm,Implement NIST PQC
+ECC-P256,Outdated protocol,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+Blowfish,Weak hash function,Quantum Curve Attack,Adopt SPHINCS+
+AES-128,Weak hash function,Grover’s Algorithm,Upgrade to AES-256
+RSA-3072,Limited key space,Quantum Key Search,Upgrade to AES-256
+AES-128,Susceptible to brute force,Grover’s Algorithm,Replace with Kyber
+SHA-256,Small key size,Grover’s Algorithm,Adopt SPHINCS+
+RSA-3072,Outdated protocol,Quantum Key Search,Replace with Falcon
+AES-256,Moderate key length,Quantum Key Search,Upgrade to AES-256
+SHA-256,Limited key space,Grover’s Algorithm,Upgrade to AES-256
+3DES,Susceptible to brute force,Amplitude Amplification Attack,Replace with Kyber
+SHA-512,Moderate key length,Quantum Key Search,Adopt SPHINCS+
+SHA-256,Deprecated algorithm,Shor’s Algorithm,Use Dilithium
+ECC-P256,Weak hash function,Quantum Curve Attack,Implement NIST PQC
+SHA-256,Vulnerable curve parameters,Quantum Curve Attack,Use Dilithium
+ECC-P256,Susceptible to brute force,Grover’s Algorithm,Upgrade to AES-256
+RSA-2048,Small key size,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Replace with Falcon
+RSA-2048,Moderate key length,Shor’s Algorithm,Replace with Kyber
+AES-128,Vulnerable curve parameters,Grover’s Algorithm,Replace with Kyber
+RSA-3072,Small key size,Shor’s Algorithm,Adopt SPHINCS+
+DES,Weak hash function,Shor’s Algorithm,Implement NIST PQC
+SHA-512,Deprecated algorithm,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Deprecated algorithm,Amplitude Amplification Attack,Use Dilithium
+RSA-3072,Moderate key length,Shor’s Algorithm,Implement NIST PQC
+RSA-3072,Weak hash function,Quantum Curve Attack,Use Dilithium
+ECC-P256,Outdated protocol,Quantum Key Search,Adopt SPHINCS+
+RSA-3072,Low entropy in RNG,Grover’s Algorithm,Implement NIST PQC
+RSA-3072,Outdated protocol,Quantum Curve Attack,Use Dilithium
+SHA-256,Weak hash function,Quantum Key Search,Use Dilithium
+SHA-256,Deprecated algorithm,Grover’s Algorithm,Replace with Falcon
+SHA-512,Outdated protocol,Quantum Key Search,Use Dilithium
+RSA-2048,Outdated protocol,Amplitude Amplification Attack,Implement NIST PQC
+AES-256,Outdated protocol,Amplitude Amplification Attack,Replace with Falcon
+RSA-2048,Moderate key length,Quantum Curve Attack,Adopt SPHINCS+
+Blowfish,Susceptible to brute force,Grover’s Algorithm,Use Dilithium
+SHA-256,Small key size,Amplitude Amplification Attack,Implement NIST PQC
+RSA-3072,Deprecated algorithm,Quantum Curve Attack,Switch to quantum-safe HSM
+3DES,Susceptible to brute force,Amplitude Amplification Attack,Replace with Falcon
+3DES,Limited key space,Quantum Key Search,Replace with Kyber
+3DES,Low entropy in RNG,Amplitude Amplification Attack,Switch to quantum-safe HSM
+DES,Susceptible to brute force,Quantum Curve Attack,Replace with Falcon
+DES,Low entropy in RNG,Shor’s Algorithm,Replace with Kyber
+AES-256,Low entropy in RNG,Shor’s Algorithm,Upgrade to AES-256
+SHA-256,Limited key space,Quantum Curve Attack,Use Dilithium
+Blowfish,Moderate key length,Quantum Curve Attack,Switch to quantum-safe HSM
+RSA-3072,Limited key space,Grover’s Algorithm,Replace with Kyber
+DES,Susceptible to brute force,Amplitude Amplification Attack,Implement NIST PQC
+ECC-P256,Moderate key length,Grover’s Algorithm,Upgrade to AES-256
+Blowfish,Small key size,Shor’s Algorithm,Upgrade to AES-256
+AES-128,Low entropy in RNG,Shor’s Algorithm,Replace with Kyber
+3DES,Vulnerable curve parameters,Quantum Curve Attack,Upgrade to AES-256
+DES,Susceptible to brute force,Quantum Curve Attack,Use Dilithium
+RSA-2048,Small key size,Amplitude Amplification Attack,Use Dilithium
+RSA-3072,Weak hash function,Grover’s Algorithm,Replace with Kyber
+SHA-512,Weak hash function,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+3DES,Limited key space,Amplitude Amplification Attack,Implement NIST PQC
+AES-256,Limited key space,Amplitude Amplification Attack,Adopt SPHINCS+
+ECC-P256,Deprecated algorithm,Shor’s Algorithm,Implement NIST PQC
+DES,Limited key space,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+AES-256,Limited key space,Grover’s Algorithm,Switch to quantum-safe HSM
+RSA-3072,Weak hash function,Grover’s Algorithm,Adopt SPHINCS+
+SHA-256,Weak hash function,Quantum Key Search,Replace with Kyber
+Blowfish,Vulnerable curve parameters,Quantum Curve Attack,Switch to quantum-safe HSM
+Blowfish,Weak hash function,Quantum Key Search,Upgrade to AES-256
+SHA-512,Low entropy in RNG,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Deprecated algorithm,Grover’s Algorithm,Adopt SPHINCS+
+RSA-2048,Moderate key length,Quantum Key Search,Adopt SPHINCS+
+RSA-3072,Deprecated algorithm,Quantum Key Search,Switch to quantum-safe HSM
+SHA-256,Susceptible to brute force,Shor’s Algorithm,Replace with Kyber
+DES,Susceptible to brute force,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+3DES,Susceptible to brute force,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+ECC-P256,Weak hash function,Quantum Key Search,Adopt SPHINCS+
+SHA-256,Small key size,Quantum Key Search,Switch to quantum-safe HSM
+AES-128,Limited key space,Grover’s Algorithm,Use Dilithium
+Blowfish,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+AES-128,Vulnerable curve parameters,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+AES-128,Small key size,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-512,Moderate key length,Quantum Key Search,Switch to quantum-safe HSM
+Blowfish,Low entropy in RNG,Quantum Curve Attack,Implement NIST PQC
+AES-256,Moderate key length,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+ECC-P256,Limited key space,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+SHA-256,Susceptible to brute force,Amplitude Amplification Attack,Switch to quantum-safe HSM
+RSA-2048,Limited key space,Quantum Curve Attack,Replace with Falcon
+DES,Weak hash function,Quantum Curve Attack,Implement NIST PQC
+Blowfish,Weak hash function,Quantum Curve Attack,Use Dilithium
+AES-128,Deprecated algorithm,Quantum Curve Attack,Replace with Falcon
+RSA-2048,Small key size,Amplitude Amplification Attack,Replace with Kyber
+ECC-P256,Weak hash function,Shor’s Algorithm,Replace with Kyber
+DES,Deprecated algorithm,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Limited key space,Quantum Key Search,Adopt SPHINCS+
+RSA-3072,Vulnerable curve parameters,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+ECC-P256,Small key size,Quantum Curve Attack,Use Dilithium
+3DES,Deprecated algorithm,Amplitude Amplification Attack,Adopt SPHINCS+
+ECC-P256,Moderate key length,Quantum Key Search,Upgrade to AES-256
+AES-256,Susceptible to brute force,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+DES,Small key size,Quantum Key Search,Replace with Falcon
+AES-128,Weak hash function,Amplitude Amplification Attack,Switch to quantum-safe HSM
+ECC-P256,Outdated protocol,Quantum Curve Attack,Adopt SPHINCS+
+AES-256,Deprecated algorithm,Quantum Curve Attack,Replace with Falcon
+3DES,Vulnerable curve parameters,Quantum Key Search,Implement NIST PQC
+AES-128,Weak hash function,Grover’s Algorithm,Adopt SPHINCS+
+Blowfish,Weak hash function,Quantum Curve Attack,Replace with Falcon
+DES,Deprecated algorithm,Grover’s Algorithm,Replace with Kyber
+SHA-512,Susceptible to brute force,Quantum Curve Attack,Use Dilithium
+AES-128,Vulnerable curve parameters,Quantum Curve Attack,Implement NIST PQC
+SHA-256,Low entropy in RNG,Grover’s Algorithm,Upgrade to AES-256
+RSA-3072,Susceptible to brute force,Quantum Curve Attack,Replace with Falcon
+RSA-3072,Vulnerable curve parameters,Quantum Key Search,Use Dilithium
+Blowfish,Vulnerable curve parameters,Quantum Curve Attack,Implement NIST PQC
+SHA-256,Low entropy in RNG,Shor’s Algorithm,Switch to quantum-safe HSM
+RSA-2048,Limited key space,Grover’s Algorithm,Replace with Kyber
+DES,Deprecated algorithm,Quantum Key Search,Adopt SPHINCS+
+Blowfish,Vulnerable curve parameters,Amplitude Amplification Attack,Replace with Falcon
+Blowfish,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+DES,Outdated protocol,Shor’s Algorithm,Replace with Kyber
+RSA-3072,Small key size,Quantum Curve Attack,Upgrade to AES-256
+3DES,Moderate key length,Quantum Curve Attack,Implement NIST PQC
+ECC-P256,Low entropy in RNG,Amplitude Amplification Attack,Implement NIST PQC
+DES,Vulnerable curve parameters,Quantum Key Search,Adopt SPHINCS+
+RSA-3072,Outdated protocol,Quantum Key Search,Switch to quantum-safe HSM
+ECC-P256,Limited key space,Quantum Key Search,Replace with Falcon
+SHA-256,Susceptible to brute force,Shor’s Algorithm,Replace with Kyber
+3DES,Susceptible to brute force,Amplitude Amplification Attack,Replace with Kyber
+Blowfish,Vulnerable curve parameters,Shor’s Algorithm,Adopt SPHINCS+
+SHA-256,Deprecated algorithm,Shor’s Algorithm,Adopt SPHINCS+
+Blowfish,Deprecated algorithm,Shor’s Algorithm,Upgrade to AES-256
+RSA-2048,Weak hash function,Grover’s Algorithm,Use Dilithium
+SHA-512,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+SHA-512,Small key size,Grover’s Algorithm,Upgrade to AES-256
+DES,Outdated protocol,Quantum Key Search,Adopt SPHINCS+
+RSA-3072,Small key size,Quantum Curve Attack,Replace with Kyber
+RSA-2048,Small key size,Quantum Key Search,Use Dilithium
+DES,Susceptible to brute force,Quantum Key Search,Upgrade to AES-256
+3DES,Weak hash function,Amplitude Amplification Attack,Adopt SPHINCS+
+AES-128,Vulnerable curve parameters,Shor’s Algorithm,Implement NIST PQC
+RSA-2048,Weak hash function,Shor’s Algorithm,Replace with Kyber
+SHA-512,Moderate key length,Quantum Key Search,Replace with Kyber
+AES-128,Outdated protocol,Amplitude Amplification Attack,Implement NIST PQC
+AES-256,Low entropy in RNG,Quantum Key Search,Replace with Falcon
+AES-256,Susceptible to brute force,Grover’s Algorithm,Adopt SPHINCS+
+SHA-512,Small key size,Grover’s Algorithm,Upgrade to AES-256
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Use Dilithium
+SHA-512,Deprecated algorithm,Quantum Curve Attack,Upgrade to AES-256
+3DES,Vulnerable curve parameters,Grover’s Algorithm,Implement NIST PQC
+Blowfish,Susceptible to brute force,Shor’s Algorithm,Replace with Falcon
+RSA-2048,Limited key space,Shor’s Algorithm,Adopt SPHINCS+
+AES-256,Small key size,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-512,Moderate key length,Amplitude Amplification Attack,Use Dilithium
+AES-256,Vulnerable curve parameters,Grover’s Algorithm,Use Dilithium
+AES-128,Weak hash function,Amplitude Amplification Attack,Replace with Falcon
+SHA-256,Moderate key length,Amplitude Amplification Attack,Adopt SPHINCS+
+Blowfish,Small key size,Quantum Key Search,Replace with Kyber
+RSA-3072,Weak hash function,Shor’s Algorithm,Replace with Kyber
+SHA-256,Outdated protocol,Shor’s Algorithm,Upgrade to AES-256
+SHA-512,Limited key space,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Vulnerable curve parameters,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+AES-256,Moderate key length,Shor’s Algorithm,Implement NIST PQC
+ECC-P256,Small key size,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-512,Susceptible to brute force,Quantum Curve Attack,Adopt SPHINCS+
+ECC-P256,Deprecated algorithm,Quantum Curve Attack,Upgrade to AES-256
+ECC-P256,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Limited key space,Quantum Key Search,Replace with Falcon
+RSA-2048,Outdated protocol,Quantum Curve Attack,Replace with Falcon
+SHA-256,Low entropy in RNG,Grover’s Algorithm,Replace with Kyber
+SHA-256,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+ECC-P256,Outdated protocol,Shor’s Algorithm,Implement NIST PQC
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Replace with Kyber
+RSA-2048,Moderate key length,Grover’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Deprecated algorithm,Grover’s Algorithm,Use Dilithium
+DES,Small key size,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Weak hash function,Amplitude Amplification Attack,Switch to quantum-safe HSM
+Blowfish,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+3DES,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+AES-128,Vulnerable curve parameters,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+SHA-256,Outdated protocol,Grover’s Algorithm,Switch to quantum-safe HSM
+DES,Outdated protocol,Grover’s Algorithm,Replace with Kyber
+RSA-3072,Vulnerable curve parameters,Quantum Curve Attack,Use Dilithium
+AES-128,Small key size,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+DES,Small key size,Grover’s Algorithm,Implement NIST PQC
+DES,Susceptible to brute force,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Deprecated algorithm,Quantum Curve Attack,Replace with Falcon
+DES,Outdated protocol,Quantum Key Search,Upgrade to AES-256
+Blowfish,Moderate key length,Shor’s Algorithm,Switch to quantum-safe HSM
+Blowfish,Deprecated algorithm,Quantum Key Search,Implement NIST PQC
+RSA-3072,Vulnerable curve parameters,Quantum Key Search,Use Dilithium
+RSA-2048,Moderate key length,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-256,Susceptible to brute force,Amplitude Amplification Attack,Use Dilithium
+AES-128,Outdated protocol,Amplitude Amplification Attack,Implement NIST PQC
+Blowfish,Outdated protocol,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Susceptible to brute force,Amplitude Amplification Attack,Switch to quantum-safe HSM
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Replace with Kyber
+SHA-256,Outdated protocol,Shor’s Algorithm,Upgrade to AES-256
+ECC-P256,Deprecated algorithm,Quantum Key Search,Replace with Falcon
+RSA-3072,Low entropy in RNG,Shor’s Algorithm,Implement NIST PQC
+ECC-P256,Moderate key length,Grover’s Algorithm,Switch to quantum-safe HSM
+DES,Outdated protocol,Quantum Key Search,Replace with Kyber
+ECC-P256,Small key size,Quantum Curve Attack,Use Dilithium
+RSA-2048,Small key size,Quantum Key Search,Replace with Falcon
+Blowfish,Vulnerable curve parameters,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-512,Vulnerable curve parameters,Quantum Key Search,Replace with Kyber
+RSA-3072,Moderate key length,Quantum Curve Attack,Upgrade to AES-256
+3DES,Outdated protocol,Quantum Curve Attack,Implement NIST PQC
+AES-128,Limited key space,Grover’s Algorithm,Implement NIST PQC
+ECC-P256,Weak hash function,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+Blowfish,Small key size,Quantum Curve Attack,Use Dilithium
+RSA-3072,Small key size,Quantum Curve Attack,Replace with Kyber
+AES-256,Susceptible to brute force,Shor’s Algorithm,Implement NIST PQC
+AES-128,Limited key space,Quantum Key Search,Use Dilithium
+RSA-2048,Limited key space,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+SHA-256,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Limited key space,Amplitude Amplification Attack,Use Dilithium
+AES-256,Outdated protocol,Shor’s Algorithm,Implement NIST PQC
+RSA-2048,Susceptible to brute force,Amplitude Amplification Attack,Use Dilithium
+AES-128,Limited key space,Grover’s Algorithm,Upgrade to AES-256
+RSA-3072,Outdated protocol,Quantum Key Search,Upgrade to AES-256
+3DES,Vulnerable curve parameters,Quantum Curve Attack,Implement NIST PQC
+RSA-2048,Susceptible to brute force,Quantum Curve Attack,Adopt SPHINCS+
+RSA-2048,Vulnerable curve parameters,Quantum Key Search,Switch to quantum-safe HSM
+SHA-512,Deprecated algorithm,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Replace with Kyber
+SHA-256,Deprecated algorithm,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Small key size,Grover’s Algorithm,Adopt SPHINCS+
+ECC-P256,Susceptible to brute force,Quantum Key Search,Upgrade to AES-256
+3DES,Weak hash function,Grover’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Outdated protocol,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+AES-256,Limited key space,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+AES-128,Moderate key length,Quantum Key Search,Upgrade to AES-256
+3DES,Vulnerable curve parameters,Grover’s Algorithm,Replace with Kyber
+AES-128,Outdated protocol,Amplitude Amplification Attack,Use Dilithium
+AES-128,Vulnerable curve parameters,Quantum Key Search,Replace with Kyber
+ECC-P256,Small key size,Amplitude Amplification Attack,Adopt SPHINCS+
+RSA-3072,Weak hash function,Amplitude Amplification Attack,Adopt SPHINCS+
+AES-256,Weak hash function,Quantum Curve Attack,Switch to quantum-safe HSM
+Blowfish,Moderate key length,Quantum Key Search,Replace with Falcon
+SHA-512,Weak hash function,Amplitude Amplification Attack,Adopt SPHINCS+
+DES,Vulnerable curve parameters,Quantum Curve Attack,Upgrade to AES-256
+3DES,Limited key space,Amplitude Amplification Attack,Adopt SPHINCS+
+RSA-2048,Susceptible to brute force,Grover’s Algorithm,Implement NIST PQC
+RSA-3072,Low entropy in RNG,Grover’s Algorithm,Replace with Falcon
+AES-128,Moderate key length,Quantum Curve Attack,Use Dilithium
+DES,Moderate key length,Amplitude Amplification Attack,Replace with Falcon
+3DES,Moderate key length,Grover’s Algorithm,Implement NIST PQC
+RSA-2048,Vulnerable curve parameters,Amplitude Amplification Attack,Adopt SPHINCS+
+SHA-512,Small key size,Grover’s Algorithm,Upgrade to AES-256
+Blowfish,Deprecated algorithm,Quantum Key Search,Adopt SPHINCS+
+RSA-2048,Small key size,Amplitude Amplification Attack,Replace with Falcon
+RSA-3072,Vulnerable curve parameters,Quantum Key Search,Replace with Falcon
+SHA-512,Deprecated algorithm,Grover’s Algorithm,Upgrade to AES-256
+DES,Low entropy in RNG,Grover’s Algorithm,Implement NIST PQC
+SHA-512,Susceptible to brute force,Amplitude Amplification Attack,Replace with Kyber
+AES-128,Weak hash function,Shor’s Algorithm,Switch to quantum-safe HSM
+DES,Moderate key length,Shor’s Algorithm,Switch to quantum-safe HSM
+Blowfish,Small key size,Quantum Curve Attack,Implement NIST PQC
+3DES,Moderate key length,Quantum Curve Attack,Adopt SPHINCS+
+AES-256,Moderate key length,Amplitude Amplification Attack,Upgrade to AES-256
+DES,Weak hash function,Shor’s Algorithm,Adopt SPHINCS+
+AES-256,Limited key space,Quantum Curve Attack,Adopt SPHINCS+
+Blowfish,Small key size,Quantum Key Search,Replace with Kyber
+SHA-512,Weak hash function,Grover’s Algorithm,Replace with Kyber
+RSA-2048,Outdated protocol,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Limited key space,Shor’s Algorithm,Adopt SPHINCS+
+AES-128,Vulnerable curve parameters,Quantum Key Search,Replace with Kyber
+Blowfish,Small key size,Quantum Curve Attack,Implement NIST PQC
+DES,Deprecated algorithm,Quantum Key Search,Implement NIST PQC
+SHA-256,Vulnerable curve parameters,Quantum Key Search,Implement NIST PQC
+3DES,Moderate key length,Quantum Curve Attack,Replace with Kyber
+AES-128,Moderate key length,Grover’s Algorithm,Switch to quantum-safe HSM
+ECC-P256,Susceptible to brute force,Quantum Key Search,Use Dilithium
+RSA-3072,Low entropy in RNG,Shor’s Algorithm,Replace with Kyber
+SHA-512,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+3DES,Vulnerable curve parameters,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+ECC-P256,Vulnerable curve parameters,Quantum Key Search,Replace with Kyber
+3DES,Deprecated algorithm,Grover’s Algorithm,Replace with Falcon
+ECC-P256,Moderate key length,Shor’s Algorithm,Implement NIST PQC
+3DES,Susceptible to brute force,Shor’s Algorithm,Implement NIST PQC
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Use Dilithium
+RSA-2048,Moderate key length,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+AES-128,Low entropy in RNG,Shor’s Algorithm,Replace with Kyber
+AES-128,Deprecated algorithm,Quantum Key Search,Adopt SPHINCS+
+AES-128,Low entropy in RNG,Quantum Curve Attack,Adopt SPHINCS+
+DES,Small key size,Quantum Curve Attack,Switch to quantum-safe HSM
+Blowfish,Vulnerable curve parameters,Quantum Key Search,Upgrade to AES-256
+RSA-2048,Vulnerable curve parameters,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+3DES,Weak hash function,Shor’s Algorithm,Adopt SPHINCS+
+ECC-P256,Low entropy in RNG,Amplitude Amplification Attack,Implement NIST PQC
+SHA-256,Low entropy in RNG,Shor’s Algorithm,Adopt SPHINCS+
+ECC-P256,Deprecated algorithm,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Vulnerable curve parameters,Amplitude Amplification Attack,Replace with Falcon
+ECC-P256,Outdated protocol,Grover’s Algorithm,Adopt SPHINCS+
+SHA-512,Limited key space,Shor’s Algorithm,Adopt SPHINCS+
+SHA-512,Weak hash function,Quantum Key Search,Transition to CRYSTALS-Kyber
+AES-256,Vulnerable curve parameters,Quantum Curve Attack,Use Dilithium
+ECC-P256,Outdated protocol,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+ECC-P256,Moderate key length,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+SHA-512,Weak hash function,Shor’s Algorithm,Adopt SPHINCS+
+AES-128,Outdated protocol,Grover’s Algorithm,Upgrade to AES-256
+AES-128,Small key size,Shor’s Algorithm,Upgrade to AES-256
+AES-256,Weak hash function,Quantum Curve Attack,Replace with Falcon
+AES-128,Low entropy in RNG,Shor’s Algorithm,Use Dilithium
+RSA-2048,Vulnerable curve parameters,Quantum Curve Attack,Replace with Kyber
+SHA-512,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+Blowfish,Small key size,Amplitude Amplification Attack,Upgrade to AES-256
+ECC-P256,Vulnerable curve parameters,Quantum Curve Attack,Use Dilithium
+SHA-256,Deprecated algorithm,Quantum Curve Attack,Implement NIST PQC
+AES-128,Limited key space,Quantum Key Search,Upgrade to AES-256
+Blowfish,Limited key space,Amplitude Amplification Attack,Replace with Kyber
+Blowfish,Small key size,Amplitude Amplification Attack,Replace with Kyber
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Replace with Falcon
+Blowfish,Low entropy in RNG,Grover’s Algorithm,Replace with Kyber
+Blowfish,Outdated protocol,Amplitude Amplification Attack,Use Dilithium
+3DES,Low entropy in RNG,Shor’s Algorithm,Implement NIST PQC
+DES,Limited key space,Quantum Curve Attack,Adopt SPHINCS+
+RSA-3072,Small key size,Grover’s Algorithm,Replace with Kyber
+AES-256,Low entropy in RNG,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+AES-256,Vulnerable curve parameters,Grover’s Algorithm,Replace with Kyber
+Blowfish,Moderate key length,Grover’s Algorithm,Replace with Falcon
+DES,Vulnerable curve parameters,Quantum Key Search,Adopt SPHINCS+
+RSA-2048,Vulnerable curve parameters,Grover’s Algorithm,Upgrade to AES-256
+ECC-P256,Deprecated algorithm,Quantum Curve Attack,Adopt SPHINCS+
+RSA-3072,Moderate key length,Shor’s Algorithm,Implement NIST PQC
+Blowfish,Vulnerable curve parameters,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+3DES,Weak hash function,Amplitude Amplification Attack,Use Dilithium
+3DES,Low entropy in RNG,Quantum Key Search,Adopt SPHINCS+
+RSA-3072,Weak hash function,Amplitude Amplification Attack,Upgrade to AES-256
+ECC-P256,Limited key space,Shor’s Algorithm,Use Dilithium
+Blowfish,Deprecated algorithm,Quantum Curve Attack,Implement NIST PQC
+SHA-512,Outdated protocol,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+AES-256,Low entropy in RNG,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-512,Vulnerable curve parameters,Quantum Curve Attack,Implement NIST PQC
+SHA-512,Susceptible to brute force,Grover’s Algorithm,Switch to quantum-safe HSM
+AES-256,Outdated protocol,Quantum Key Search,Upgrade to AES-256
+ECC-P256,Moderate key length,Quantum Key Search,Switch to quantum-safe HSM
+RSA-2048,Deprecated algorithm,Shor’s Algorithm,Replace with Kyber
+ECC-P256,Deprecated algorithm,Grover’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Low entropy in RNG,Grover’s Algorithm,Use Dilithium
+SHA-256,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+AES-256,Susceptible to brute force,Quantum Key Search,Adopt SPHINCS+
+RSA-2048,Vulnerable curve parameters,Grover’s Algorithm,Replace with Falcon
+RSA-2048,Small key size,Quantum Curve Attack,Upgrade to AES-256
+SHA-256,Limited key space,Quantum Key Search,Transition to CRYSTALS-Kyber
+AES-256,Deprecated algorithm,Quantum Key Search,Replace with Kyber
+3DES,Moderate key length,Amplitude Amplification Attack,Adopt SPHINCS+
+AES-128,Outdated protocol,Shor’s Algorithm,Upgrade to AES-256
+AES-128,Low entropy in RNG,Amplitude Amplification Attack,Upgrade to AES-256
+Blowfish,Deprecated algorithm,Shor’s Algorithm,Implement NIST PQC
+SHA-512,Vulnerable curve parameters,Quantum Curve Attack,Replace with Kyber
+Blowfish,Vulnerable curve parameters,Grover’s Algorithm,Implement NIST PQC
+Blowfish,Deprecated algorithm,Amplitude Amplification Attack,Upgrade to AES-256
+RSA-3072,Limited key space,Quantum Key Search,Adopt SPHINCS+
+3DES,Outdated protocol,Grover’s Algorithm,Upgrade to AES-256
+DES,Limited key space,Quantum Curve Attack,Replace with Falcon
+RSA-2048,Vulnerable curve parameters,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-2048,Low entropy in RNG,Quantum Curve Attack,Upgrade to AES-256
+DES,Outdated protocol,Quantum Curve Attack,Adopt SPHINCS+
+RSA-3072,Vulnerable curve parameters,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Weak hash function,Shor’s Algorithm,Replace with Kyber
+Blowfish,Deprecated algorithm,Amplitude Amplification Attack,Switch to quantum-safe HSM
+RSA-3072,Vulnerable curve parameters,Quantum Key Search,Transition to CRYSTALS-Kyber
+DES,Vulnerable curve parameters,Amplitude Amplification Attack,Adopt SPHINCS+
+ECC-P256,Outdated protocol,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+DES,Moderate key length,Grover’s Algorithm,Replace with Kyber
+AES-256,Weak hash function,Shor’s Algorithm,Use Dilithium
+AES-256,Susceptible to brute force,Shor’s Algorithm,Use Dilithium
+RSA-3072,Vulnerable curve parameters,Shor’s Algorithm,Replace with Falcon
+ECC-P256,Weak hash function,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-256,Vulnerable curve parameters,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+AES-128,Moderate key length,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-512,Weak hash function,Quantum Key Search,Replace with Kyber
+AES-128,Small key size,Amplitude Amplification Attack,Use Dilithium
+AES-128,Susceptible to brute force,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-2048,Low entropy in RNG,Quantum Curve Attack,Replace with Falcon
+SHA-512,Susceptible to brute force,Quantum Key Search,Use Dilithium
+ECC-P256,Susceptible to brute force,Quantum Curve Attack,Switch to quantum-safe HSM
+AES-128,Weak hash function,Amplitude Amplification Attack,Upgrade to AES-256
+DES,Weak hash function,Grover’s Algorithm,Adopt SPHINCS+
+DES,Deprecated algorithm,Amplitude Amplification Attack,Use Dilithium
+SHA-256,Susceptible to brute force,Quantum Key Search,Adopt SPHINCS+
+SHA-512,Outdated protocol,Amplitude Amplification Attack,Implement NIST PQC
+Blowfish,Low entropy in RNG,Quantum Key Search,Switch to quantum-safe HSM
+RSA-3072,Limited key space,Amplitude Amplification Attack,Adopt SPHINCS+
+DES,Outdated protocol,Quantum Key Search,Implement NIST PQC
+SHA-256,Low entropy in RNG,Grover’s Algorithm,Replace with Falcon
+RSA-2048,Vulnerable curve parameters,Amplitude Amplification Attack,Adopt SPHINCS+
+RSA-3072,Susceptible to brute force,Quantum Key Search,Use Dilithium
+Blowfish,Deprecated algorithm,Shor’s Algorithm,Adopt SPHINCS+
+RSA-2048,Susceptible to brute force,Shor’s Algorithm,Replace with Kyber
+ECC-P256,Low entropy in RNG,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+AES-128,Deprecated algorithm,Grover’s Algorithm,Replace with Falcon
+Blowfish,Weak hash function,Shor’s Algorithm,Implement NIST PQC
+DES,Limited key space,Quantum Key Search,Replace with Kyber
+AES-128,Vulnerable curve parameters,Shor’s Algorithm,Transition to CRYSTALS-Kyber
+RSA-3072,Limited key space,Quantum Curve Attack,Use Dilithium
+SHA-256,Weak hash function,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+ECC-P256,Weak hash function,Amplitude Amplification Attack,Adopt SPHINCS+
+SHA-512,Low entropy in RNG,Shor’s Algorithm,Replace with Kyber
+ECC-P256,Small key size,Amplitude Amplification Attack,Implement NIST PQC
+AES-256,Small key size,Amplitude Amplification Attack,Replace with Kyber
+AES-128,Low entropy in RNG,Amplitude Amplification Attack,Switch to quantum-safe HSM
+3DES,Outdated protocol,Quantum Key Search,Upgrade to AES-256
+SHA-512,Deprecated algorithm,Amplitude Amplification Attack,Adopt SPHINCS+
+Blowfish,Deprecated algorithm,Grover’s Algorithm,Switch to quantum-safe HSM
+AES-128,Deprecated algorithm,Grover’s Algorithm,Implement NIST PQC
+3DES,Deprecated algorithm,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Moderate key length,Shor’s Algorithm,Upgrade to AES-256
+SHA-256,Low entropy in RNG,Quantum Key Search,Switch to quantum-safe HSM
+AES-128,Low entropy in RNG,Grover’s Algorithm,Implement NIST PQC
+SHA-512,Weak hash function,Quantum Curve Attack,Replace with Falcon
+AES-256,Limited key space,Quantum Key Search,Adopt SPHINCS+
+Blowfish,Weak hash function,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+3DES,Small key size,Quantum Curve Attack,Replace with Kyber
+AES-256,Outdated protocol,Shor’s Algorithm,Use Dilithium
+DES,Susceptible to brute force,Shor’s Algorithm,Replace with Falcon
+RSA-2048,Weak hash function,Shor’s Algorithm,Adopt SPHINCS+
+SHA-512,Limited key space,Quantum Curve Attack,Upgrade to AES-256
+3DES,Limited key space,Quantum Curve Attack,Implement NIST PQC
+SHA-512,Outdated protocol,Grover’s Algorithm,Upgrade to AES-256
+AES-256,Deprecated algorithm,Grover’s Algorithm,Replace with Kyber
+Blowfish,Low entropy in RNG,Quantum Key Search,Implement NIST PQC
+SHA-512,Susceptible to brute force,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-256,Outdated protocol,Quantum Curve Attack,Adopt SPHINCS+
+SHA-256,Susceptible to brute force,Shor’s Algorithm,Implement NIST PQC
+Blowfish,Vulnerable curve parameters,Amplitude Amplification Attack,Replace with Kyber
+AES-256,Deprecated algorithm,Quantum Curve Attack,Replace with Kyber
+Blowfish,Susceptible to brute force,Shor’s Algorithm,Adopt SPHINCS+
+RSA-3072,Limited key space,Grover’s Algorithm,Switch to quantum-safe HSM
+RSA-3072,Small key size,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-256,Limited key space,Quantum Curve Attack,Switch to quantum-safe HSM
+3DES,Low entropy in RNG,Quantum Curve Attack,Adopt SPHINCS+
+AES-256,Low entropy in RNG,Quantum Curve Attack,Switch to quantum-safe HSM
+SHA-512,Limited key space,Quantum Key Search,Implement NIST PQC
+AES-256,Vulnerable curve parameters,Quantum Key Search,Adopt SPHINCS+
+DES,Deprecated algorithm,Amplitude Amplification Attack,Upgrade to AES-256
+ECC-P256,Deprecated algorithm,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-512,Low entropy in RNG,Shor’s Algorithm,Adopt SPHINCS+
+3DES,Limited key space,Grover’s Algorithm,Implement NIST PQC
+AES-256,Weak hash function,Amplitude Amplification Attack,Replace with Falcon
+ECC-P256,Deprecated algorithm,Amplitude Amplification Attack,Switch to quantum-safe HSM
+DES,Small key size,Amplitude Amplification Attack,Transition to CRYSTALS-Kyber
+RSA-3072,Weak hash function,Grover’s Algorithm,Switch to quantum-safe HSM
+AES-128,Low entropy in RNG,Quantum Key Search,Use Dilithium
+Blowfish,Outdated protocol,Quantum Curve Attack,Use Dilithium
+RSA-3072,Deprecated algorithm,Shor’s Algorithm,Replace with Falcon
+AES-256,Susceptible to brute force,Grover’s Algorithm,Switch to quantum-safe HSM
+RSA-3072,Outdated protocol,Grover’s Algorithm,Switch to quantum-safe HSM
+ECC-P256,Moderate key length,Grover’s Algorithm,Replace with Falcon
+SHA-256,Weak hash function,Grover’s Algorithm,Adopt SPHINCS+
+3DES,Low entropy in RNG,Amplitude Amplification Attack,Use Dilithium
+AES-256,Moderate key length,Quantum Curve Attack,Upgrade to AES-256
+SHA-256,Limited key space,Grover’s Algorithm,Use Dilithium
+SHA-512,Low entropy in RNG,Quantum Key Search,Adopt SPHINCS+
+AES-128,Limited key space,Grover’s Algorithm,Implement NIST PQC
+DES,Outdated protocol,Quantum Curve Attack,Upgrade to AES-256
+SHA-256,Vulnerable curve parameters,Quantum Curve Attack,Replace with Falcon
+Blowfish,Moderate key length,Quantum Key Search,Adopt SPHINCS+
+AES-256,Small key size,Amplitude Amplification Attack,Switch to quantum-safe HSM
+AES-256,Susceptible to brute force,Grover’s Algorithm,Replace with Kyber
+SHA-512,Low entropy in RNG,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+Blowfish,Moderate key length,Amplitude Amplification Attack,Switch to quantum-safe HSM
+Blowfish,Moderate key length,Quantum Key Search,Replace with Kyber
+SHA-256,Small key size,Grover’s Algorithm,Replace with Kyber
+Blowfish,Deprecated algorithm,Quantum Key Search,Transition to CRYSTALS-Kyber
+SHA-256,Moderate key length,Quantum Curve Attack,Transition to CRYSTALS-Kyber
+Blowfish,Outdated protocol,Quantum Key Search,Switch to quantum-safe HSM
+RSA-3072,Moderate key length,Amplitude Amplification Attack,Adopt SPHINCS+
+Blowfish,Weak hash function,Grover’s Algorithm,Transition to CRYSTALS-Kyber
+SHA-256,Moderate key length,Shor’s Algorithm,Replace with Falcon
+Blowfish,Moderate key length,Shor’s Algorithm,Switch to quantum-safe HSM
+SHA-512,Moderate key length,Quantum Curve Attack,Replace with Kyber
+Blowfish,Moderate key length,Amplitude Amplification Attack,Upgrade to AES-256
+SHA-512,Small key size,Amplitude Amplification Attack,Replace with Kyber
+Blowfish,Limited key space,Grover’s Algorithm,Adopt SPHINCS+
+SHA-512,Outdated protocol,Amplitude Amplification Attack,Replace with Kyber
