@@ -31,7 +31,7 @@ This dataset aims to:
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-name.git
+      git clone https://github.com/chakriceoq/Quantum-Cryptography-Vulnerabilities.git
 
 The dataset contains 10 unique encryption algorithms. Here is the list of unique algorithms:
 
